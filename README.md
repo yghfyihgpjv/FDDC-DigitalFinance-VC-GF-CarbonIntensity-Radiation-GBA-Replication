@@ -76,7 +76,7 @@ do analysis/code.do
 ### Result Output
 After running, all empirical results (baseline regressions, heterogeneity/mechanism tests, robustness checks) will be automatically saved to:
 ```
-/result/a1.log
+/result/a.log
 ```
 
 
