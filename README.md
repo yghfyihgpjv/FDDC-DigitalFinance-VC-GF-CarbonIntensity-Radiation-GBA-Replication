@@ -1,7 +1,11 @@
 # Replication Package README
 
-This repository contains all replication materials for the paper *A Tale of Two Cores: Divergent Spatial Mechanisms of Digital Finance and Carbon Intensity in the Greater Bay Area*. Running the main script reproduces all empirical results to support the journal's peer review process.
-
+This repository contains all replication materials for the paper *Beyond a Tale of Two Cores: Asymmetric Digital Finance Exposure and Energy Transition Forecasting in Polycentric Urban Systems*. Running the main script reproduces all empirical results to support the journal's peer review process.
+## Data Sources and References
+For replication purposes, please refer to the following authoritative sources:
+- **Digital Finance**: Guo et al. (2020) [DOI: 10.13821/j.cnki.ceq.2020.03.12]
+- **Energy Intensity**: Wu et al. (2014) [DOI: 10.11821/dlyj201404006]
+- **Environmental Regulation**: Shao et al. (2024) [DOI: 10.19744/j.cnki.11-1235/f.2024.0093]
 
 ## 1. File Structure
 ```
