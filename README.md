@@ -3,9 +3,11 @@
 This repository contains all replication materials for the paper *Beyond a Tale of Two Cores: Asymmetric Digital Finance Exposure and Energy Transition Forecasting in Polycentric Urban Systems*. Running the main script reproduces all empirical results to support the journal's peer review process.
 ## Data Sources and References
 For replication purposes, please refer to the following authoritative sources:
-- **Digital Finance**: Guo et al. (2020) [DOI: 10.13821/j.cnki.ceq.2020.03.12]
-- **Energy Intensity**: Wu et al. (2014) [DOI: 10.11821/dlyj201404006]
-- **Environmental Regulation**: Shao et al. (2024) [DOI: 10.19744/j.cnki.11-1235/f.2024.0093]
+- **Digital Finance(DF)**: Guo et al. (2020) [DOI: 10.13821/j.cnki.ceq.2020.03.12]
+-**Energy Intensity (EI)**: Estimated using nighttime light intensity, cross-calibrated following Wu et al. (2014) [DOI: 10.11821/dlyj201404006] and Yang et al. (2023) [DOI: 10.19581/j.cnki.ciejournal.2023.05.004].
+- **Green Total Factor Productivity (GTFP)**: Measured via the SBM-ML method, following Tone (2001) [DOI: 10.1016/S0377-2217(99)00407-5] and Oh (2010) [DOI: 10.1007/s11123-010-0178-y].
+- **Environmental Regulation Intensity (EnvReg)**: Word-frequency intensity of environmental keywords in government work reports, following Shao et al. (2024) [DOI: 10.19744/j.cnki.11-1235/f.2024.0093].
+
 
 ## 1. File Structure
 ```
@@ -27,7 +29,7 @@ For replication purposes, please refer to the following authoritative sources:
 /analysis
   code.do                           # Main script (run this to replicate results)
   wconstructingcode.do              # Radiation weight construction (for inspection only)
-/result
+/results
   a.log                            # Full regression result log
 README.md                           # This document
 ```
