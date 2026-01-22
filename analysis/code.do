@@ -19,7 +19,7 @@ local LOGDIR "`ROOT'/results"
 capture mkdir "`LOGDIR'"
 
 * 日志文件路径
-local log_file "`LOGDIR'/a1_annotated.txt"
+local log_file "`LOGDIR'/a.txt"
 
 capture log close _all
 log using "`log_file'", text replace
